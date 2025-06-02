@@ -23,11 +23,11 @@ git clone https://github.com/frankndungu/otto-lead-outreach.git
 cd otto-lead-outreach
 ```
 
-### 2. Create a Virtual Environment (Optional but Recommended)
+### 2. Create a Virtual Environment 
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+python -m venv venv
+venv/bin/activate   
 ```
 
 ### 3. Install Dependencies
@@ -71,12 +71,12 @@ Add numbers to `followup.csv` (one phone number per line, or with a header), the
 python send_follow_up_texts.py
 ```
 
-### Creating Contacts (Example)
+### Creating Contacts 
 
 Use a similar structure or add your own script for managing contacts as needed.
 
 ## Notes
 
-- **All API keys and device IDs are managed via the `.env` file. Never commit your real credentials to GitHub.**
+- ** All API keys and device IDs are managed via the `.env` file. **
 - Logs and errors are printed to the terminal for easy debugging.
 - See [Wassenger API Docs](https://wassenger.com/docs/) for more customization options.
