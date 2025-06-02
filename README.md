@@ -77,6 +77,6 @@ Use a similar structure or add your own script for managing contacts as needed.
 
 ## Notes
 
-- ** All API keys and device IDs are managed via the `.env` file. **
+- **All API keys and device IDs are managed via the `.env` file.**
 - Logs and errors are printed to the terminal for easy debugging.
 - See [Wassenger API Docs](https://wassenger.com/docs/) for more customization options.
